@@ -1,0 +1,163 @@
+body
+{
+    background-color: rgb(255, 255, 255);
+}
+.logo
+{
+    width: 5%;
+    border-radius: 20px;
+    position: relative;
+    top: 15px;
+}
+.nav
+{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    margin-top: -20px;
+    z-index: 2;
+}
+.h1
+{
+    display:inline-block;
+    margin-right: 7%;
+}
+input {
+    width: 30%;
+    height: 37px;
+    border-radius: 7px;
+    z-index: -1;
+    background-color: rgb(255 219 219);
+    border: none;
+    transition: 0.5s ease-in-out;
+}
+input:hover
+{
+    height: 50px;
+}
+.div1
+{
+    background-color: aliceblue;
+    height: 290px;
+    margin-top: 95px;
+}
+.h2
+{
+    margin-left: 7%;
+}
+.img1
+{
+    margin-left: 7%;
+}
+img
+{
+    width: 150px;
+    padding-right: 1%;
+    padding-left: 1%;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.7s ease-in-out;
+}
+img:hover
+{
+    transform: scale(1.2);
+    background-color: aliceblue;
+}
+.p1{
+    color: brown;
+    font-weight: bold;
+    font-size: 18px;
+    display: inline-block;
+    margin-left: 10%;
+    width: 0%;
+    padding-right: 0.7em;
+    padding-left: 1em;
+}
+.button1
+{
+    margin-left: 7%;
+    border:none;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    transition: 1s;
+}
+.button
+{
+    border:none;
+    margin-left: 2%;
+    margin-top: 4%;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    transition: 1s;
+}
+.button:hover,.buttonlogin:hover
+{
+    background-color: rgb(255 219 219);
+    transform:scale(1.2);
+}
+.buttonlogin
+{
+    margin-left: 600px;
+    border:none;
+    margin-top: 4%;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    transition: 1s;
+}
+.img3
+{
+    margin-left: 6%;
+    border-radius: 20%;
+    width: 15%;
+    height: 53%;
+}
+.img4
+{
+    margin-left: 1%;
+    width: 15%;
+    height: 53%;
+    border-radius: 20%;
+    padding-left: 1%;
+}
+.div2
+{
+    
+    background-color: rgba(212, 217, 228, 0.866);
+}
+.div3   
+{
+    margin-left: 7%;
+}
+.div4
+{
+    margin-left: 7%;
+    display: inline-block;
+    color: rgb(103, 106, 104);
+}
+.div5
+{
+    padding-left: 7%;
+    display: inline-block;
+    color: rgb(103, 106, 104);
+}
+.button2
+{
+    background-color: aquamarine;
+    border:none;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    transition: 1s;
+}
+.button2:hover
+{
+    background-color: rgb(255 219 219);
+}
